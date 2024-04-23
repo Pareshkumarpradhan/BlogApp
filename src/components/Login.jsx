@@ -63,6 +63,20 @@ function Login() {
                     }
                 })}
             />
+
+            <Input
+                lable="Password: "
+                placeholder="Enter your password"
+                type="password"
+                    {...register("password", {
+                        required: true,
+                    })}
+            >
+            </Input>
+            <Button
+                type="submit"
+                className="w-full"
+            >Sign in</Button>
           </div>
         </form>
       </div>
