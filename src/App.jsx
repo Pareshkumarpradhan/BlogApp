@@ -24,7 +24,7 @@ useEffect(() => {
   })
   .finally(() => setLoading(false))
 
-}, []);
+}, [dispatch]);
 
 
   return ! loading ? (
